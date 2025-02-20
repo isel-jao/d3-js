@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #18181b;
+  --foreground: #e4e4e7;
+  --border: #27272a;
+  --primary: #818cf8;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background-color: var(--background);
+  color: var(--foreground);
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+}
+
+* {
+  border-color: var(--border)
+}
